@@ -1,0 +1,109 @@
+body {
+  /*display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;*/
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: 0;
+}
+
+.blue-box button {
+  border: 2px solid #F9FAF8;
+}
+
+.header,
+.content,
+.footer {
+  background-color: #1F2937;
+}
+
+.header {
+  
+}
+
+.content {
+
+}
+
+.hero-main {
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.hero-sec {
+  color: #E5E7EB;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.links {
+  
+}
+
+.random {
+
+}
+
+.info {
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.subtext {
+  color: #8d8d8d;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+
+.words {
+  font-weight: 300;
+}
+
+.thor {
+  font-weight: 900;
+}
+
+.action {
+
+}
+
+.blue-box {
+  background-color: #3882F6;
+}
+
+.call {
+  font-weight: 700;
+  color: #F9FAF8;
+}
+
+.signup {
+  font-weight: 300;
+  color: #E5E7EB;
+}
+
+.footer {
+  color: #E5E7EB;
+}
