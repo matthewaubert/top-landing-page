@@ -38,8 +38,15 @@ button {
   background-color: #1F2937;
 }
 
+.header,
+.content,
+.blue-box {
+  padding: 0 48px;
+}
+
 .header {
-  
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -50,15 +57,25 @@ button {
 
 .links {
   font-size: 18px;
+  margin-left: auto;
+  display: flex;
+  gap: 24px;
 }
 
 .content {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  padding: 100px 0;
+}
 
+.content div {
+  flex: 0 1 448px;
 }
 
 .content img {
   width: 550px;
-  height: 250px;
+  height: 220px;
   object-fit: cover;
 }
 
