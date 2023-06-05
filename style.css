@@ -26,27 +26,29 @@ button {
   width: 132px;
   height: 36px;
   font-size: 18px;
+  margin-top: 12px;
 }
 
 .blue-box button {
   border: 2px solid #F9FAF8;
+  margin: 0;
 }
 
-.header,
-.content,
+.top,
 .footer {
   background-color: #1F2937;
 }
 
-.header,
-.content,
-.blue-box {
-  padding: 0 48px;
+.top {
+  padding: 18px 0;
 }
 
 .header {
   display: flex;
   align-items: center;
+  max-width: 1006px;
+  margin: 0 auto;
+  padding: 0 48px;
 }
 
 .logo {
@@ -57,16 +59,16 @@ button {
 
 .links {
   font-size: 18px;
-  margin-left: auto;
   display: flex;
   gap: 24px;
+  margin-left: auto;
 }
 
 .content {
   display: flex;
   justify-content: center;
   gap: 48px;
-  padding: 100px 0;
+  padding: 100px 48px;
 }
 
 .content div {
@@ -74,8 +76,8 @@ button {
 }
 
 .content img {
-  width: 550px;
-  height: 220px;
+  width: 510px;
+  height: 230px;
   object-fit: cover;
 }
 
@@ -135,6 +137,7 @@ button {
 
 .blue-box {
   background-color: #3882F6;
+  padding: 0 48px;
 }
 
 .call {
