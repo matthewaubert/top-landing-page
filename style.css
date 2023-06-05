@@ -22,6 +22,10 @@ button {
   background-color: #3882F6;
   color: #F9FAF8;
   border: 0;
+  border-radius: 8px;
+  width: 132px;
+  height: 36px;
+  font-size: 18px;
 }
 
 .blue-box button {
@@ -38,6 +42,16 @@ button {
   
 }
 
+.logo {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.links {
+  font-size: 18px;
+}
+
 .content {
 
 }
@@ -45,32 +59,27 @@ button {
 .hero-main {
   color: #F9FAF8;
   font-weight: 900;
+  font-size: 48px;
 }
 
 .hero-sec {
   color: #E5E7EB;
-}
-
-.logo {
-  color: #F9FAF8;
-  font-weight: 900;
-}
-
-.links {
-  
+  font-size: 18px;
 }
 
 .random {
-
+  
 }
 
 .info {
   color: #1F2937;
   font-weight: 900;
+  font-size: 36px;
 }
 
 .subtext {
   color: #8d8d8d;
+  font-size: 18px;
 }
 
 .quote {
@@ -80,10 +89,13 @@ button {
 
 .words {
   font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
 }
 
 .thor {
   font-weight: 900;
+  font-size: 24px;
 }
 
 .action {
@@ -97,13 +109,16 @@ button {
 .call {
   font-weight: 700;
   color: #F9FAF8;
+  font-size: 24px;
 }
 
 .signup {
   font-weight: 300;
   color: #E5E7EB;
+  font-size: 18px;
 }
 
 .footer {
   color: #E5E7EB;
+  font-size: 18px;
 }
