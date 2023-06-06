@@ -152,12 +152,21 @@ button {
 }
 
 .action {
-
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 56px 48px;
 }
 
 .blue-box {
   background-color: #3882F6;
-  padding: 0 48px;
+  padding: 48px 103px;
+  flex-basis: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+  border-radius: 8px;
 }
 
 .call {
@@ -170,9 +179,22 @@ button {
   font-weight: 300;
   color: #E5E7EB;
   font-size: 18px;
+  margin-top: 2px;
+}
+
+.blue-box div {
+  flex: 0 2 auto;
+}
+
+.blue-box button {
+  flex: 0 1 auto;
 }
 
 .footer {
   color: #E5E7EB;
   font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px;
 }
