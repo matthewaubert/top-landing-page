@@ -18,22 +18,6 @@ a {
   text-decoration: none;
 }
 
-button {
-  background-color: #3882F6;
-  color: #F9FAF8;
-  border: 0;
-  border-radius: 8px;
-  width: 132px;
-  height: 36px;
-  font-size: 18px;
-  margin-top: 12px;
-}
-
-.blue-box button {
-  border: 2px solid #F9FAF8;
-  margin: 0;
-}
-
 .top,
 .footer {
   background-color: #1F2937;
@@ -82,12 +66,6 @@ button {
   flex: 0 1 448px;
 }
 
-.content img {
-  width: 510px;
-  height: 230px;
-  object-fit: cover;
-}
-
 .hero-main {
   color: #F9FAF8;
   font-weight: 700;
@@ -97,6 +75,28 @@ button {
 .hero-sec {
   color: #E5E7EB;
   font-size: 18px;
+  margin-top: 8px;
+}
+
+.button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 400;
+  border: 0;
+  display: inline-block;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 8px;
+  width: 132px;
+  height: 36px;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.content img {
+  width: 510px;
+  height: 232px;
+  object-fit: cover;
 }
 
 .random {
@@ -193,7 +193,9 @@ button {
   flex: 0 2 auto;
 }
 
-.blue-box button {
+.blue-box .button {
+  border: 2px solid #F9FAF8;
+  margin: 0;
   flex: 0 1 auto;
 }
 
