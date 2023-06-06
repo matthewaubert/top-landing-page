@@ -1,8 +1,4 @@
 body {
-  /*display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;*/
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-weight: 300;
@@ -137,7 +133,7 @@ a {
 .quote {
   background-color: #E5E7EB;
   color: #1F2937;
-  padding: 116px 48px 100px;
+  padding: 116px 48px 96px;
 }
 
 .words {
